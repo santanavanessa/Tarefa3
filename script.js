@@ -31,6 +31,20 @@ document.getElementById('btn-aluno1').addEventListener('click', () => {
     displayResult(resultado);
 });
 
+// ---------- COLE AQUI O CÓDIGO DO BOTÃO 7 ----------
+
+document.getElementById('btn-aluno1').addEventListener('click', () => {
+
+    const [val1, val2] = getValues();
+
+    if (val1 === null) return; // Interrompe se os valores forem inválidos
+
+    const resultado = (val1 + val2) / 2;
+
+    displayResult(resultado);
+
+});
+
 // ---------- COLE AQUI O CÓDIGO DO BOTÃO 30 ----------
 document.getElementById('btn-aluno1').addEventListener('click', () => {
     // Defina os pesos para cada valor.
